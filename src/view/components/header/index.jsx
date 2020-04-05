@@ -3,7 +3,11 @@ import { Helmet } from "react-helmet";
 
 import Logo from "../../img/logo.png";
 import Reset from "../../style/reset";
+<<<<<<< HEAD
 import { Container } from "../../style/main";
+=======
+import { Container, Menu } from "../../style/main";
+>>>>>>> develop
 
 const Header = () => {
   return (
@@ -16,7 +20,36 @@ const Header = () => {
           />
         </Helmet>
         <Reset />
+<<<<<<< HEAD
         
+=======
+        <nav>
+          <Menu>
+            <li>
+              <a href="./">
+                <img src={Logo} alt="Home" />
+              </a>
+            </li>
+            <ul>
+              <li>
+                <a href="./">HTML5</a>
+              </li>
+              <li>
+                <a href="./">CSS3</a>
+              </li>
+              <li>
+                <a href="./">JAVASCRIPT</a>
+              </li>
+              <li>
+                <a href="./">REACT</a>
+              </li>
+              <li>
+                <a href="./">REDUX</a>
+              </li>
+            </ul>
+          </Menu>
+        </nav>
+>>>>>>> develop
       </header>
     </Container>
   );
