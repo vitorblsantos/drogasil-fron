@@ -5,19 +5,23 @@ const Reset = createGlobalStyle`
 *{
     box-sizing:border-box;
 }
+
 html, body{
     font-size: 12px;
-    font-family: Nunito,sans-serif;
+    font-family: "Open Sans",Helvetica, sans-serif, arial;
     margin: 0;
     padding: 0;
 }
+
 body{
     background:url(${BG});
 }
-div, img, figure, figcaption, h1,h2, p{
+
+div, img, figure, figcaption, ul, li{
     margin: 0;
     padding:0; 
 }
+
 button, select, input{
     border:0;
     :focus{
@@ -25,7 +29,14 @@ button, select, input{
     }
 }
 a{
-    color: #0b3c88;
-}`;
+    color: #007549;
+    text-decoration:none;
+}
+
+li{
+    list-style-type:none;
+}
+
+`;
 
 export default Reset;
