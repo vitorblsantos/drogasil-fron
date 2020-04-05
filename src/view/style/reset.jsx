@@ -31,6 +31,7 @@ button, select, input{
 a{
     color: #007f56;
     text-decoration:none;
+    display:flex;
 }
 
 li{

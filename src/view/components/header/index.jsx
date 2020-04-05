@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+
 import Logo from "../../img/logo.png";
 import Reset from "../../style/reset";
 import { Container, Menu } from "../../style/main";
