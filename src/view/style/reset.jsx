@@ -11,6 +11,7 @@ html, body{
     font-family: "Open Sans",Helvetica, sans-serif, arial;
     margin: 0;
     padding: 0;
+    color:#868686;
 }
 
 body{
