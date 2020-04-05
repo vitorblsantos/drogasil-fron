@@ -11,16 +11,22 @@ html, body{
     font-family: "Open Sans",Helvetica, sans-serif, arial;
     margin: 0;
     padding: 0;
+    color:#868686;
 }
 
 body{
     background:url(${BG});
 }
 
-div, img, figure, figcaption, ul, li{
+div, img, figure, figcaption, ul, li, h3{
     margin: 0;
     padding:0; 
 }
+
+a, h3, li{
+    font-weight:400;
+}
+
 
 button, select, input{
     border:0;
@@ -36,6 +42,11 @@ a{
 
 li{
     list-style-type:none;
+}
+
+section{
+    margin: 12px 0;
+    padding:4px 0;
 }
 
 `;
