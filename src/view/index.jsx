@@ -1,10 +1,15 @@
-import React from 'react';
+import React from "react";
+
+import Header from "./components/header";
 
 const App = () => {
-  return(
-    <h1>Boilerplate</h1>
-  )
-}
-
+  return (
+    <React.StrictMode>
+      <Header>
+        <h1>Boilerplate</h1>
+      </Header>
+    </React.StrictMode>
+  );
+};
 
 export default App;
