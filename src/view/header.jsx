@@ -1,9 +1,8 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-
-import Reset from "../../style/reset";
-import { Container } from "../../style/main";
-import Menu from "../menu";
+import ResetCSS from "./style/reset";
+import { Container } from "./style/main";
+import Menu from "./components/menu";
 
 const Header = () => {
   return (
@@ -15,7 +14,7 @@ const Header = () => {
             rel="stylesheet"
           />
         </Helmet>
-        <Reset />
+        <ResetCSS />
         <Menu />
       </Container>
     </header>
