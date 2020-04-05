@@ -4,4 +4,4 @@ import App from "./view";
 // import * as serviceWorker from './serviceWorker';
 // serviceWorker.register();
 
-render(<App />, document.getElementById("root"));
+render(<App />, document.body);
