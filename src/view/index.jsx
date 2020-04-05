@@ -1,13 +1,11 @@
 import React from "react";
 
-import Header from "./components/header";
+import Header from './header';
 
 const App = () => {
   return (
     <React.StrictMode>
-      <Header>
-        <h1>Boilerplate</h1>
-      </Header>
+      <Header/>
     </React.StrictMode>
   );
 };
