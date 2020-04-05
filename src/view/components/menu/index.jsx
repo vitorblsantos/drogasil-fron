@@ -1,15 +1,17 @@
 import React from "react";
+import Logo from "../../img/logo.png";
+import {ContainerMenu} from './style';
 
 
 const Menu = () => {
   return (
     <nav>
-      <Menu>
+      <ContainerMenu>
         <li>
           <a href="./">
             <img src={Logo} alt="Home" />
           </a>
-        </li>
+        </li>   
         <ul>
           <li>
             <a href="./">HTML5</a>
@@ -27,7 +29,9 @@ const Menu = () => {
             <a href="./">REDUX</a>
           </li>
         </ul>
-      </Menu>
+      </ContainerMenu>
     </nav>
   );
 };
+
+export default Menu;
