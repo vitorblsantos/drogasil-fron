@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Box = styled.figure`
   display: flex;
+  min-height:360px;
   height:${props=> props.animation === 'open' ? '372px' : '360px'}; 
   width:380px;
   flex-flow: column nowrap;
@@ -10,15 +11,13 @@ export const Box = styled.figure`
   background: ${(props) => props.bg};
   margin-bottom:20px;
   transition: all .3s ease-in-out;
-  img {
-    margin: 8px 0;
-  }
+  padding:8px 0 0 0;
   figcaption {
     display: flex;
     flex: 1 1 100%;
     flex-flow: column nowrap;
     background: #fff;
-    padding-bottom:20px;
+    padding-bottom:8px;
     span {
       padding: 12px 8px;
       min-height: 76px;
