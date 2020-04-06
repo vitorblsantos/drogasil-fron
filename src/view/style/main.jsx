@@ -22,14 +22,30 @@ export const Bold = styled.span`
 
 export const Title3 = styled.h3`
   color: #007f56;
-  font-size: 5em;
+  font-size: 4.9em;
   font-weight: 300;
   text-align: center;
-  line-height: 56px;
-  margin: 36px 0;
+  line-height: 60px;
+  margin: 20px 0;
 `;
 export const Paragraph = styled.p`
   text-align: center;
   font-size: 2.8em;
   font-weight: 300;
+`;
+
+export const FooterList = styled.ul`
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  > li {
+    :nth-of-type(2) {
+      flex: 0 0 65%;
+      justify-content: flex-start;
+    }
+  }
+  a{
+    color:#868686;
+  }
 `;
