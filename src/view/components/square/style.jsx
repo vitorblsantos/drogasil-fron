@@ -39,4 +39,8 @@ export const Box = styled.figure`
       font-size:1.5em;
     }
   }
+  @media (max-device-width:1024px){
+    flex:0 0 33%;
+    margin-right: 2px;
+  }
 `;

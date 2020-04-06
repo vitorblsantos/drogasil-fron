@@ -7,7 +7,7 @@ import Logo from "./img/logo_small.png";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer style={{marginTop:'auto'}}>
       <Container>
         <nav>
           <FooterList>

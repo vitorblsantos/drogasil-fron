@@ -45,6 +45,7 @@ export const Title3 = styled.h3`
   @media (max-width:768px){
     font-size:2em;
     line-height: 32px;
+    padding:0 12px;
   }
 `;
 
