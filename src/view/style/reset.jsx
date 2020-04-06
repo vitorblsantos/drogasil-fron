@@ -12,21 +12,17 @@ html, body{
     margin: 0;
     padding: 0;
     color:#868686;
+    letter-spacing:-1.3px;
 }
 
 body{
     background:url(${BG});
 }
 
-div, img, figure, figcaption, ul, li, h3{
+div, img, figure, figcaption, ul, li, h3, p{
     margin: 0;
     padding:0; 
 }
-
-a, h3, li{
-    font-weight:400;
-}
-
 
 button, select, input{
     border:0;

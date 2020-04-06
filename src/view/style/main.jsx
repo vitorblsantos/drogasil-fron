@@ -28,10 +28,13 @@ export const Title3 = styled.h3`
   line-height: 60px;
   margin: 20px 0;
 `;
+
 export const Paragraph = styled.p`
   text-align: center;
   font-size: 2.8em;
   font-weight: 300;
+  line-height:40px;
+  margin: 24px 0 20px;
 `;
 
 export const FooterList = styled.ul`
@@ -39,6 +42,7 @@ export const FooterList = styled.ul`
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
+  font-size:1.2em;
   > li {
     :nth-of-type(2) {
       flex: 0 0 65%;

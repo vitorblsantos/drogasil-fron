@@ -5,11 +5,11 @@ export const ContainerMenu = styled.ul`
   display: flex;
   flex: 1 1 100%;
   justify-content: space-between;
-  padding: 12px 0 16px;
+  padding: 8px 0 16px;
   &:before {
     content: "";
     position: absolute;
-    height: 2px;
+    height: 1px;
     width: 100%;
     background: #e0e0e0;
     bottom: 8px;
@@ -20,7 +20,7 @@ export const ContainerMenu = styled.ul`
     flex-flow: row nowrap;
     padding-top: 16px;
     li {
-      padding: 0 12px;
+      padding: 0 8px;
       font-size: 1.8em;
       font-weight: 300;
     }
