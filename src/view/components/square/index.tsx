@@ -10,7 +10,7 @@ const Square: React.FC<InterfaceSquares> = (props) => {
       <figcaption>
         <span>{`Site Responsivo ${props.device.toUpperCase()}`}</span>
         <span>{props.content}</span>
-        <a href="#">Leia mais...</a>
+        <a href="./" onClick={()=>console.log('erst')}>Leia mais...</a>
       </figcaption>
     </Box>
   );

@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const Box = styled.figure`
   display: flex;
+  height:360px; 
+  width:380px;
   flex-flow: column nowrap;
   align-content: center;
   justify-content: center;
@@ -19,7 +21,8 @@ export const Box = styled.figure`
     span {
       padding: 12px 8px;
       min-height: 76px;
-      font-size: 1.3em;
+      font-size: 1.4em;
+      letter-spacing:.1px;
       :first-of-type {
         text-align: center;
         color: #fff;
@@ -42,5 +45,6 @@ export const Box = styled.figure`
   @media (max-device-width:1024px){
     flex:0 0 33%;
     margin-right: 2px;
+    width:100%;
   }
 `;
