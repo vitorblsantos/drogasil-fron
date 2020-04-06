@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
-export const Box = styled.div`
+export const Box = styled.figure`
   display: flex;
   flex-flow: column nowrap;
   align-content: center;
   justify-content: center;
   width: 360px;
-  background: ${(props) => props.color};
+  background: ${(props) => props.bg};
   margin-bottom:20px;
   img {
     margin: 16px 0 8px;
@@ -26,7 +26,7 @@ export const Box = styled.div`
         color: #fff;
         font-size: 2.3em;
         font-weight: 300;
-        background: ${(props) => props.color};
+        background: ${(props) => props.bg};
         padding-top:12px;
         font-weight:400;
       }
@@ -34,7 +34,7 @@ export const Box = styled.div`
     a {
       align-self: flex-end;
       margin-right: 16px;
-      background: ${(props) => props.color};
+      background: ${(props) => props.bg};
       padding:4px;
       color:#fff;
       font-size:1.5em;
