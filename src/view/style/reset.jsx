@@ -25,7 +25,7 @@ body{
     flex-flow:column nowrap;
 }
 
-div, img, figure, figcaption, ul, li, h3, p{
+div,section, img, figure, figcaption, ul, li, h3, p{
     margin: 0;
     padding:0; 
 }
@@ -47,7 +47,6 @@ li{
 }
 
 section{
-    margin: 12px 0;
     padding:4px 0;
 }
 

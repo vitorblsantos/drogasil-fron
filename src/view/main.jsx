@@ -16,7 +16,7 @@ import {
 
 const Main = () => {
   return (
-    <main>
+    <main style={{overflow:'hidden'}}>
       <Container>
         <section>
           <Title3>
@@ -45,6 +45,7 @@ const Main = () => {
               ]}
               btn="Leia mais..."
               color="#FE9481"
+              event="open"
             />
             <Square
               img={Tablet}

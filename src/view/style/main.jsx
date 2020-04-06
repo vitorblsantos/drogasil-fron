@@ -29,7 +29,7 @@ export const Title3 = styled.h3`
   font-weight: 300;
   text-align: center;
   line-height: 60px;
-  margin: 20px 0;
+  margin: 28px 0;
   @media (max-width:768px){
     font-size:2.7em;
     line-height: 36px;
@@ -38,7 +38,7 @@ export const Title3 = styled.h3`
   
   export const Paragraph = styled.p`
   text-align: center;
-  font-size: 2.8em;
+  font-size: 2.6em;
   font-weight: 300;
   line-height: 40px;
   margin: 24px 0 20px;

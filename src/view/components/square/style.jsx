@@ -2,15 +2,16 @@ import styled from "styled-components";
 
 export const Box = styled.figure`
   display: flex;
-  height:360px; 
+  height:${props=> props.animation === 'open' ? '380px' : '360px'}; 
   width:380px;
   flex-flow: column nowrap;
   align-content: center;
   justify-content: center;
   background: ${(props) => props.bg};
   margin-bottom:20px;
+  transition: all .3s ease-in-out;
   img {
-    margin: 16px 0 8px;
+    margin: 8px 0;
   }
   figcaption {
     display: flex;
@@ -32,14 +33,24 @@ export const Box = styled.figure`
         padding-top:12px;
         font-weight:400;
       }
+      > span{
+        background:transparent !important;
+        font-size:1em !important;
+        background: transparent !important;
+        font-size: 1em !important;
+        color: inherit !important;
+      }
     }
-    a {
+    button {
       align-self: flex-end;
       margin-right: 16px;
       background: ${(props) => props.bg};
       padding:4px;
       color:#fff;
       font-size:1.5em;
+      cursor:pointer;
+      margin-top:auto;
+      transition:all .3s ease-in-out;
     }
   }
   @media (max-device-width:1024px){
