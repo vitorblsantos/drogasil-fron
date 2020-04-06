@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Box = styled.figure`
   display: flex;
-  height:${props=> props.animation === 'open' ? '380px' : '360px'}; 
+  height:${props=> props.animation === 'open' ? '372px' : '360px'}; 
   width:380px;
   flex-flow: column nowrap;
   align-content: center;

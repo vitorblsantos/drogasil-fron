@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import InterfaceSquares from "../../interfaces/square";
 
 import { Box } from "./style";
@@ -13,7 +13,7 @@ const Square: React.FC<InterfaceSquares> = (props) => {
     }
     return false;
   };
-
+  
   return (
     <Box bg={props.color} animation={animation}>
       <img src={props.img} alt="" />
@@ -27,7 +27,7 @@ const Square: React.FC<InterfaceSquares> = (props) => {
             ""
           )}
         </span>
-        <button onClick={() => handleAnimation(props.event)}>
+        <button onClick={() => props.event === 'open' ? handleAnimation(props.event) : props.event()}>
           Leia mais...
         </button>
       </figcaption>
