@@ -1,13 +1,15 @@
 import React from "react";
 
-import Header from './header';
-import Section from "./section";
+import Header from "./header";
+import Main from "./main";
+import Footer from "./footer";
 
 const App = () => {
   return (
     <React.StrictMode>
-      <Header/>
-      <Section/>
+      <Header />
+      <Main />
+      <Footer />
     </React.StrictMode>
   );
 };

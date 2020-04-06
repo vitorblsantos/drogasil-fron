@@ -5,7 +5,7 @@ import { Box } from "./style";
 
 const Square: React.FC<InterfaceSquares> = (props) => {
   return (
-    <Box color={props.color}>
+    <Box bg={props.color}>
       <img src={props.img} alt="" />
       <figcaption>
         <span>{`Site Responsivo ${props.device.toUpperCase()}`}</span>
