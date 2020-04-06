@@ -36,4 +36,9 @@ export const ContainerModal = styled.div`
     color: #fff;
     cursor: pointer;
   }
+
+  @media (max-width:768px){
+    left:3%;
+    width:95vw;
+  }
 `;
