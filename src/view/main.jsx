@@ -6,9 +6,15 @@ import Desktop from "./img/desktop-responsive-design.png";
 import Tablet from "./img/tablets-responsive-design.png";
 import Mobile from "./img/mobile-responsive-design.png";
 
-import {Container, ContainerSquare, Bold, Title3, Paragraph } from "./style/main";
+import {
+  Container,
+  ContainerSquare,
+  Bold,
+  Title3,
+  Paragraph,
+} from "./style/main";
 
-const Section = () => {
+const Main = () => {
   return (
     <main>
       <Container>
@@ -71,4 +77,4 @@ const Section = () => {
   );
 };
 
-export default Section;
+export default Main;

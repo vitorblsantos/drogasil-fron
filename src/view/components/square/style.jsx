@@ -5,7 +5,6 @@ export const Box = styled.figure`
   flex-flow: column nowrap;
   align-content: center;
   justify-content: center;
-  width: 360px;
   background: ${(props) => props.bg};
   margin-bottom:20px;
   img {
