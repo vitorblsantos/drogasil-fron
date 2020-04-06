@@ -49,6 +49,11 @@ section{
     padding:4px 0;
 }
 
+img{
+    display:flex;
+    align-self:center;
+}
+
 `;
 
 export default Reset;
