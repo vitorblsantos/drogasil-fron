@@ -4,5 +4,5 @@ export default interface Square {
     content: string;
     btn:string;
     color: string;
-    event: Function;
+    event: any;
   }

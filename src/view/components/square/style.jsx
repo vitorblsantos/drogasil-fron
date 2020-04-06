@@ -2,24 +2,27 @@ import styled from "styled-components";
 
 export const Box = styled.figure`
   display: flex;
+  min-height:360px;
+  height:${props=> props.animation === 'open' ? '372px' : '360px'}; 
+  width:380px;
   flex-flow: column nowrap;
   align-content: center;
   justify-content: center;
   background: ${(props) => props.bg};
   margin-bottom:20px;
-  img {
-    margin: 16px 0 8px;
-  }
+  transition: all .3s ease-in-out;
+  padding:8px 0 0 0;
   figcaption {
     display: flex;
     flex: 1 1 100%;
     flex-flow: column nowrap;
     background: #fff;
-    padding-bottom:20px;
+    padding-bottom:8px;
     span {
       padding: 12px 8px;
       min-height: 76px;
-      font-size: 1.3em;
+      font-size: 1.4em;
+      letter-spacing:.1px;
       :first-of-type {
         text-align: center;
         color: #fff;
@@ -29,18 +32,29 @@ export const Box = styled.figure`
         padding-top:12px;
         font-weight:400;
       }
+      > span{
+        background:transparent !important;
+        font-size:1em !important;
+        background: transparent !important;
+        font-size: 1em !important;
+        color: inherit !important;
+      }
     }
-    a {
+    button {
       align-self: flex-end;
       margin-right: 16px;
       background: ${(props) => props.bg};
       padding:4px;
       color:#fff;
       font-size:1.5em;
+      cursor:pointer;
+      margin-top:auto;
+      transition:all .3s ease-in-out;
     }
   }
   @media (max-device-width:1024px){
     flex:0 0 33%;
     margin-right: 2px;
+    width:100%;
   }
 `;

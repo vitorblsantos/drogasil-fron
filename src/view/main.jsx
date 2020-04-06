@@ -14,9 +14,9 @@ import {
   Paragraph,
 } from "./style/main";
 
-const Main = () => {
+const Main = props => {
   return (
-    <main>
+    <main style={{overflow:'hidden'}}>
       <Container>
         <section>
           <Title3>
@@ -45,6 +45,7 @@ const Main = () => {
               ]}
               btn="Leia mais..."
               color="#FE9481"
+              event="open"
             />
             <Square
               img={Tablet}
@@ -57,6 +58,7 @@ const Main = () => {
               ]}
               btn="Leia mais..."
               color="#FCDA92"
+              event={props.modal}
             />
             <Square
               img={Mobile}
@@ -69,6 +71,7 @@ const Main = () => {
               ]}
               btn="alterar tema"
               color="#9C8CB9"
+              event={props.theme}
             />
           </ContainerSquare>
         </section>
