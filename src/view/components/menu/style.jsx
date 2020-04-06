@@ -27,6 +27,7 @@ export const ContainerMenu = styled.ul`
   }
   @media (max-width: 680px) {
     ul{
+        visibility:hidden;
         position:absolute;
         flex-flow column nowrap;
         width:100%;
