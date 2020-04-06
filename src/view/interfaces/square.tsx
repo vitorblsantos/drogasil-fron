@@ -1,4 +1,5 @@
 export default interface Square {
+    key: string;
     img: string;
     device: string;
     content: string;

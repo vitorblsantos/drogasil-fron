@@ -15,7 +15,7 @@ const Square: React.FC<InterfaceSquares> = (props) => {
   };
   
   return (
-    <Box bg={props.color} animation={animation}>
+    <Box key= {props.key} bg={props.color} animation={animation}>
       <img src={props.img} alt="" />
       <figcaption>
         <span>{`Site Responsivo ${props.device.toUpperCase()}`}</span>

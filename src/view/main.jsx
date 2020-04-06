@@ -35,6 +35,7 @@ const Main = props => {
           </Paragraph>
           <ContainerSquare>
             <Square
+              key="0"
               img={Desktop}
               device="Desktop"
               content={[
@@ -46,8 +47,9 @@ const Main = props => {
               btn="Leia mais..."
               color="#FE9481"
               event="open"
-            />
+              />
             <Square
+              key="1"
               img={Tablet}
               device="Tablet"
               content={[
@@ -59,8 +61,9 @@ const Main = props => {
               btn="Leia mais..."
               color="#FCDA92"
               event={props.modal}
-            />
+              />
             <Square
+              key="2"
               img={Mobile}
               device="Mobile"
               content={[
